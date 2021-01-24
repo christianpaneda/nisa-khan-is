@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+body {
+  font-family: 'Space Mono', monospace;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+
+  background-color: #edc7a9;
+  background-image: linear-gradient(180deg, #FFFFFF,  rgba(255, 255, 255, 0));
+  color: #0000000;
+
+  height: 100vh;  
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px 0 10px 0;
+}
+
+h2 {
+  font-size: 10vmin;
+}
+
+section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  text-align: center;
+}
+
+section div.circle {
+  width: 20px;
+  height: 20px;
+  background-color: #3e78ed;
+  border-radius: 50%;
+  display: inline-block;
+
+  transition: background-color 0.5s;
+}
+
+section a{
+  color: #000000; 
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0; 
+  width: 100%; 
+  padding: 30px; 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img.story{
+  width: 25%;
+  height: 25%; 
+}
+
+footer img{
+  margin: 0px 10px 0px 10px;
+  cursor: pointer;  
+}
